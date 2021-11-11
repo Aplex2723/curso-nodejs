@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --color-white: #f7f7f7;
+    --color-dark-red: #9E0D0D;
+    --color-black: #242424;
+    --color-gray: #454545;
+    --color-gray-2: #C4C4C4;
+}
+
+body, html {
+    font-family: 'Montserrat';
+    background: var(--color-black);
+}
+
+main {
+    background-image: url('/img/bg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main-sector {
+    min-height: 100%;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background: rgba(94, 0, 0, 0.47);
+}
+
+.navbar-brand {
+    color: var(--color-white);
+    font-weight: 900;
+    font-size: 65px;
+}
+
+a:hover {
+    color: var(--color-white);
+}
+
+.nav-item a {
+    margin-left: 15px;
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.nav-item a:hover {
+    color: var(--color-dark-red);
+
+} 
+
+.active a{
+    color: var(--color-dark-red);
+    background-color: var(--color-white);
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+.dropdown-menu a {
+    color: var(--color-dark-red);
+}
+
+.circle {
+    background: var(--color-white);
+    justify-content: right;
+    border-radius: 50%;
+    width: 16rem;
+    height: 16rem;
+}
+
+.text-header {
+    color: var(--color-white);
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.note {
+    background-color: var(--color-gray);
+    border-radius: 15px;
+}
+
+.col-image {
+    width: 100%;
+    height: 100%; 
+    border-radius: 5px;
+}
+
+.col-text {
+    font-weight: 500;
+    color: var(--color-white);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.circles-section .col-lg-4{
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: var(--color-white)
+
+}
+
+.circles-section h2 {
+    font-weight: 500;
+}
+
+.circles-section .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.page-footer {
+    background-color: var(--color-gray);
+    color: var(--color-white);
+}
+

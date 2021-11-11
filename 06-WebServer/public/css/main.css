@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --color-white: #f7f7f7;
+    --color-dark-red: #9E0D0D;
+    --color-black: #242424;
+    --color-gray: #454545;
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.h1 {
+    font-size: 2.5rem;
+  }
+  div.subtitle p {
+    font-size: 1.875rem !important;
+  }
+  h3.line {
+      font-size: 30px;
+  }
+  div.contenido {
+      height: auto;
+      width: auto;
+  }
+  div#text-content-main {
+      top: 33%;
+  }
+  h3.sec-2-title{
+      font-size: 1.875rem;
+  }
+}
+
+body, html {
+    font-family: 'Montserrat';
+    height: 100%;
+    
+} */
+
+*{
+    box-sizing: border-box;
+}
+
+main, body {
+    background-image: url(/img/bg.jpg);
+}
+
+main
+{
+    min-height: 100%;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background: rgba(94, 0, 0, 0.47);
+}
+
+.navbar-brand {
+    color: var(--color-white);
+    font-weight: 900;
+    font-size: 65px;
+}
+
+a:hover {
+    color: var(--color-white);
+}
+
+.nav-item a {
+    margin-left: 15px;
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.nav-item a:hover {
+    color: var(--color-dark-red);
+
+} 
+
+.active a{
+    color: var(--color-dark-red);
+    background-color: var(--color-white);
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+.dropdown-menu a {
+    color: var(--color-dark-red);
+    font-size: 1.1rem;
+}
+
+.h1 {
+    color: var(--color-white);
+    font-weight: 900;
+    font-size: 9.688rem;
+    text-align: right;
+    line-height: 1;
+
+}
+
+.subtitle p {
+    color: var(--color-dark-red);
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+.contenido {
+    width: 40%;
+    height: 30%;
+
+}
+.contenido p {
+    color: var(--color-white);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+h3 {
+    color: var(--color-white);
+    font-size: 4rem;
+    font-weight: 800;
+    
+}
+
+.line {
+    border-bottom: 3px solid var(--color-dark-red);
+    max-width: 31%;
+    
+}
+
+.section-two {
+    background: var(--color-black);
+}
+
+#text-content-main {
+    max-height: 40%;
+
+}
+
+#partner {
+    font-size: 1.875rem;
+    color: var(--color-white);
+}
+
+.item {
+    height: 8rem;
+    width: 6rem;
+    background-color: var(--color-white);
+    
+}
+
+.bg-dark {
+    backdrop-filter: blur(10px);
+    background-color:rgba(255, 255, 255, 0.47)
+}
+
+.page-footer {
+    background-color: var(--color-gray);
+    color: var(--color-white);
+}
+
+#avatar {
+    right: 0;
+}
